@@ -34,17 +34,18 @@ body{
 main{
     min-height: 300px;
     max-width: 2000px;
-    margin: 0px;
+    margin-top: -30px;
+    margin-bottom: -30px;
     padding: 0px;    
 }
 .fundo01{
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
     
 }
 .fundo02{
-    background: black url(imagens/background002.jpg) center center no-repeat fixed ;
-    background-size: cover;
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+        background-size: cover;
 }
 .text01{
     width: 400px;
@@ -63,17 +64,20 @@ main{
     font-size: 30px;
     text-align: left;
     background-color: white;
-    margin-bottom: -27px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.562);
 }
 .ftransparente{
     font-family: "Sriracha";
     font-size: 30px;
     text-align: left;
     color: white;
+    
    
 }
 footer{
+    background-color: black;
+    color: white;
     font-family: Verdana;
     text-align: center;
+    padding: 20px;
 }
