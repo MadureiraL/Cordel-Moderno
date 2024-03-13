@@ -42,6 +42,9 @@ section{
    font-size: 4.5vh;
    font-family: "Sriracha";
 }
+section > p{
+    padding-bottom: 2em;
+}
 #img01{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
